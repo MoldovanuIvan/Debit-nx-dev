@@ -6,7 +6,6 @@ import Fade from '@material-ui/core/Fade';
 import Flag from 'react-flagpack'
 import {Trans} from "react-i18next";
 
-
 export default function FadeMenu({changeLanguage}) {
     const [anchorEl, setAnchorEl] = React.useState(null);
     const open = Boolean(anchorEl);
@@ -27,7 +26,6 @@ export default function FadeMenu({changeLanguage}) {
             b.setAttribute('dir','ltr')
         }
     };
-
 
     return (
         <div>

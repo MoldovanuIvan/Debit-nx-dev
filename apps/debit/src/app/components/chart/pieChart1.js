@@ -34,7 +34,6 @@ export default class Example extends PureComponent {
                         data={data}
                         innerRadius={60}
                         outerRadius={80}
-                        fill="#8884d8"
                         paddingAngle={0}
                         dataKey="value"
                         label

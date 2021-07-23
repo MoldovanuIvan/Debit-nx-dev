@@ -6,7 +6,6 @@ import Typography from '@material-ui/core/Typography';
 import FadeMenu from "./languageChange";
 import {Trans, useTranslation} from "react-i18next";
 
-
 const useStyles = makeStyles((theme) => ({
     root: {
         flexGrow: 1,
@@ -26,7 +25,6 @@ export default function DenseAppBar() {
     const changeLanguage = (language) => {
         i18n.changeLanguage(language)
     }
-
 
     return (
         <div className={classes.root}>
