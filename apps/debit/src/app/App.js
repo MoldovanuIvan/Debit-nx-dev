@@ -7,10 +7,6 @@ import './App.css'
 
 function App() {
 
-    useEffect(() => {
-        instance.get('/langs/eng.json').then(response=>{console.log(response.data)})
-    },[])
-
     return (
         <div className='app'>
             <Header/>

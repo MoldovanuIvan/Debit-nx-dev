@@ -42,7 +42,7 @@ export default function FadeMenu({changeLanguage}) {
                 onClose={handleClose}
                 TransitionComponent={Fade}
             >
-                <MenuItem onClick={() => handleClose('en')}><Flag size="M" code="GB-ENG"/><span
+                <MenuItem onClick={() => handleClose('en')}><Flag size="M" code="GB-UKM"/><span
                     style={{marginLeft: "8px",}}>English</span></MenuItem>
                 <MenuItem onClick={() => handleClose('heb')}><Flag size="M" code="IL"/><span
                     style={{marginLeft: "8px",}}>ישראל</span></MenuItem>
